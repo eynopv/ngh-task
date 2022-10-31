@@ -1,0 +1,21 @@
+.controls button {
+  padding: .5em 1em;
+
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+
+  border-style: none;
+  border-radius: 999rem;
+  background-color: #aeaeae;
+
+  transform: scale(0.7);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.controls button.active {
+  background-color: #6203df;
+
+  transform: scale(1);
+}

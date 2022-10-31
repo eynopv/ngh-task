@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  text-align: center;
+
+  padding: 8px;
+}
+
+.container {
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.chart {
+  padding: 16px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .info-wrapper {
+    display: block;
+  }
+}

@@ -1,0 +1,24 @@
+.info-box {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+
+  margin-bottom: 16px;
+  padding: 16px;
+
+  color: #3b018a;
+
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.info-box h2 {
+  font-weight: 700;
+  margin: 0;
+  margin-right: 16px;
+}
+
+.info-box p {
+  margin: 0;
+}
